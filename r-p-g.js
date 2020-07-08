@@ -23,18 +23,18 @@ export function checkResults(player, computer){
         return 'loss';
     } else if (player === 'scissors' && computer === 'paper'){
         return 'win';
-    }else if (player === 'rock' && computer === 'scissors'){
+    } else if (player === 'rock' && computer === 'scissors'){
         return 'win';
-      
-      }else if (player === 'rock' && computer ==='paper'){
-          return 'loss';
+         
+    } else if (player === 'rock' && computer ==='paper'){
+        return 'loss';
         
-      }else if (player === 'paper' && computer ==='scissors'){
-          return 'loss';
+    } else if (player === 'paper' && computer ==='scissors'){
+        return 'loss';
 
-      }else {
-          return 'win';
-      }
+    } else {
+        return 'win';
+    }
 
   
 
