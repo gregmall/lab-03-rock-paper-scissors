@@ -21,23 +21,32 @@
     <main>
         <section class="main-section">
             <label>
-               Rock
+               
                 <input name="hand" value="rock" type="radio" checked />
-                <img class="radio-image">
+                <img class="radio-image" width="100" height="100" src="https://www.yourdictionary.com/images/definitions/lg/11560.rock.jpg" />
             </label>
             <label>
-                Paper
+               
                 <input name="hand" value="paper" type="radio" />
-                 <img class="radio-image" >
+                 <img class="radio-image" width="100" height="100" src="https://cdn.instructables.com/FPO/HEGI/IAY1N6E7/FPOHEGIIAY1N6E7.LARGE.jpg?auto=webp&frame=1&width=1024&fit=bounds"/>
+
+ 
             </label>
             <label>
-                Scissors
+                
                  <input name="hand" value="scissors" type="radio" />
-                 <img class="radio-image" >
+                 <img class="radio-image" width="100" height="100" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Pair_of_scissors_with_black_handle%2C_2015-06-07.jpg/1024px-Pair_of_scissors_with_black_handle%2C_2015-06-07.jpg" />
             </label>
             <button id="play-button">Play</button>
 
         </section>
+            <section class="result">
+                <div>Wins: <span id="wins"></span></div>
+                <div>Losses: <span id="losses"></span></div>
+                <div>Draw: <span id="draw"></span></div>
+                <div>Total: <span id="total"></span></div>
+                
+            </section>
     </main>
     <footer>
         <div class="copy gutter-right">&copy; 2020 Alchemy Code Lab</div>
