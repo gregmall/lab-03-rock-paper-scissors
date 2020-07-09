@@ -26,10 +26,10 @@ export function checkResults(player, computer){
     } else if (player === 'rock' && computer === 'scissors'){
         return 'win';
          
-    } else if (player === 'rock' && computer ==='paper'){
+    } else if (player === 'rock' && computer === 'paper'){
         return 'lose';
         
-    } else if (player === 'paper' && computer ==='scissors'){
+    } else if (player === 'paper' && computer === 'scissors'){
         return 'lose';
 
     } else {

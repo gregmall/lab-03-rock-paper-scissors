@@ -18,7 +18,7 @@ body {
     --footer-height: 25px;
     
     font-family: 'Titillium Web', sans-serif;
-    background-image: url("https://m.gifmania.co.uk/Objects-Animated-Gifs/Animated-Toys/Rock-Paper-Scissors/Rock-Paper-Scissors-77522.gif");
+    background-image: url("https://www.science20.com/files/images/Rock-Paper-Scissors%20animation.gif");
 }
 
 main {
@@ -61,8 +61,10 @@ header {
     
 }
 .h1 {
+    background-color: lime;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 60px;
+    box-shadow: 5px 10px #888888;
 }
 .button {
     font-size: 25px;

@@ -34,7 +34,7 @@ myButton.addEventListener('click', () => {
         draw++;
         total++;
 
-    } else{
+    } else {
         loss++;
         total++;
         
