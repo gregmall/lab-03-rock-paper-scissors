@@ -1,3 +1,4 @@
+//This generates a random number and returns rock/paper/scissors
 export function getRandomThrow() { 
     
     let value = Math.ceil(Math.random() * 3);
@@ -15,6 +16,7 @@ export function getRandomThrow() {
     }
  
 }
+//This function checks wether the play or computer won
 export function checkResults(player, computer){
 
     if (player === computer){

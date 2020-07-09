@@ -1,5 +1,5 @@
 // import functions and grab DOM elements
-import { getRandomThrow, checkResults,  } from  './r-p-g.js';
+import { getRandomThrow, checkResults, } from './r-p-g.js';
 // initialize state
 const myButton = document.getElementById('play-button');
 const winsSpan = document.getElementById('wins');
@@ -7,9 +7,7 @@ const lossSpan = document.getElementById('losses');
 const totalSpan = document.getElementById('total');
 const drawSpan = document.getElementById('draw');
 const comentateSpan = document.getElementById('comentate');
-const resetButton = document.getElementById('reset');
-
-let resets = 0;
+//Global states initiated
 let draw = 0;
 let wins = 0;
 let total = 0;
@@ -22,28 +20,32 @@ myButton.addEventListener('click', () => {
     
 
     let choice = playerChoice.value;
-    console.log(choice);
+    //console.log(choice);
     let computerChoice = getRandomThrow();
-    console.log(computerChoice);
+    //console.log(computerChoice);
    
     let game = checkResults(choice, computerChoice);
     if (game === 'win'){
         wins ++;
-        total ++;
+        
     } else if (game === 'draw'){
         draw++;
-        total++;
+        
 
     } else {
         loss++;
-        total++;
+        
         
     }
+    //Adds 1 to total every game
+    total++;
+    //displays wins/losses/total/draw
     winsSpan.textContent = wins;
     lossSpan.textContent = loss;
     totalSpan.textContent = total;
     drawSpan.textContent = draw;
-    comentateSpan.textContent= 'You ' + checkResults(choice, computerChoice) + ' with ' + choice + ' against ' + computerChoice;
+    //Shows choice and computerChoice
+    comentateSpan.textContent = 'You ' + game + ' with ' + choice + ' against ' + computerChoice;
    
 });
 
