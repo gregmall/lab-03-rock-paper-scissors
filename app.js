@@ -42,6 +42,6 @@ myButton.addEventListener('click', () => {
     lossSpan.textContent = loss;
     totalSpan.textContent = total;
     drawSpan.textContent = draw;
-    comentateSpan.textContent= 'You ' + checkResults(choice, computerChoice) + ' with a ' + choice + ' against a ' + computerChoice;
+    comentateSpan.textContent= 'You ' + checkResults(choice, computerChoice) + ' with ' + choice + ' against ' + computerChoice;
    
 });
