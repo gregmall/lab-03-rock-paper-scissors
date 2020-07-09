@@ -94,3 +94,7 @@ input:checked + img {
       
       border: solid 2px crimson;
   }
+
+input{
+    display:none;
+}
