@@ -37,6 +37,5 @@ export function checkResults(player, computer){
     }
 
   
+}
 
-
-    }
