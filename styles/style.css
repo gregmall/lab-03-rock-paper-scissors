@@ -74,7 +74,7 @@ header {
     background-color: lime;
     width: 400px;
     height: 220px;
-    font-size: 25px;
+    font-size: 20px;
   
     max-width: 80%;
     display: flex;
@@ -88,6 +88,9 @@ header {
     border: solid 2px black;
     box-shadow: 5px 10px #888888;
 
+}
+input {
+    display: none;
 }
 
 input:checked + img {
