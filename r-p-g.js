@@ -20,17 +20,17 @@ export function checkResults(player, computer){
     if (player === computer){
         return 'draw';
     } else if (player === 'scissors' && computer === 'rock'){
-        return 'loss';
+        return 'lose';
     } else if (player === 'scissors' && computer === 'paper'){
         return 'win';
     } else if (player === 'rock' && computer === 'scissors'){
         return 'win';
          
     } else if (player === 'rock' && computer ==='paper'){
-        return 'loss';
+        return 'lose';
         
     } else if (player === 'paper' && computer ==='scissors'){
-        return 'loss';
+        return 'lose';
 
     } else {
         return 'win';

@@ -6,6 +6,8 @@ const winsSpan = document.getElementById('wins');
 const lossSpan = document.getElementById('losses');
 const totalSpan = document.getElementById('total');
 const drawSpan = document.getElementById('draw');
+const comentateSpan = document.getElementById('comentate');
+
 
 let draw = 0;
 let wins = 0;
@@ -40,6 +42,6 @@ myButton.addEventListener('click', () => {
     lossSpan.textContent = loss;
     totalSpan.textContent = total;
     drawSpan.textContent = draw;
-    
+    comentateSpan.textContent= 'You ' + checkResults(choice, computerChoice) + ' with a ' + choice + ' against a ' + computerChoice;
    
 });

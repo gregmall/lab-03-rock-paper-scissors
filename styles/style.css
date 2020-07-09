@@ -19,7 +19,7 @@ body {
     --footer-height: 25px;
     
     font-family: 'Titillium Web', sans-serif;
-    background-color: var(--color2);
+    background-image: url("https://m.gifmania.co.uk/Objects-Animated-Gifs/Animated-Toys/Rock-Paper-Scissors/Rock-Paper-Scissors-77522.gif");
 }
 
 main {
@@ -30,63 +30,72 @@ main {
     margin-bottom: calc(var(--footer-height));
 }
 
-section {
-    background-color: var(--color5);
-    width: 1000px;
+.span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.section {
+    background-color: chartreuse;
+    width: 750px;
+  
     max-width: 80%;
     display: flex;
-    flex-direction: column;
+    flex-direction: center;
     justify-content: center;
     align-items: center;
-    padding-top: var(--gutter);
-    padding-bottom: var(--gutter);
-    margin-top: var(--gutter);
-    margin-bottom: var(--gutter);
-    border: solid 2px var(--color1);
+    padding-top: 50px;
+    padding-bottom: 10px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border: solid 2px black;
 }
 
 header {
     display: flex;
-    justify-content: flex-end;
-    background-color: var(--color3);
+    justify-content: center;
+    background-color: greenyellow;
     height: var(--header-height);
-    box-shadow: var(--shadow);
+    
 }
-
-footer {
+.h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+}
+.button {
+    font-size: 25px;
+    background-color: yellow;
+}
+.result {
+    background-color: chartreuse;
+    width: 400px;
+    height: 200px;
+  
+    max-width: 80%;
     display: flex;
-    justify-content: flex-end;
-    background-color: var(--color3);
-    box-shadow: var(--shadow);
-}
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border: solid 2px black;
 
-
-h2 {
-    font-size: 1.8rem;
-    font-weight: bold;
-}
-
-.gutter-right {
-    margin-right: 20px;
-}
-
-.main-logo {
-    animation: pulse 5s infinite ease-in-out;
-}
-
-header img {
-    height: var(--header-height);
 }
 
 
 
-content {
-    width: 80%;
-}
 
-p {
-    margin: var(--gutter);
-}
+
+
+
+
+
+
+
   
 
 

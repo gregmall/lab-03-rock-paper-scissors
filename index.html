@@ -14,15 +14,18 @@
 
 <body>
     <header>
-        <div class="gutter-right logo">
-            <img src="assets/big-logo.png"/>
+        <h1 class="h1">Rock, Paper, Scissors</h1>
+            
         </div>
     </header>
     <main>
-        <section class="main-section">
+        <section class="section">
+            <div class="firstcolumn">
+               <span class="span">Lets play Rock Paper Scissors</span>
+               <center><span>make your choice below</span></center>
+            <br>
             <label>
-               
-                <input name="hand" value="rock" type="radio" checked />
+               <input name="hand" value="rock" type="radio" checked />
                 <img class="radio-image" width="100" height="100" src="https://www.yourdictionary.com/images/definitions/lg/11560.rock.jpg" />
             </label>
             <label>
@@ -37,19 +40,30 @@
                  <input name="hand" value="scissors" type="radio" />
                  <img class="radio-image" width="100" height="100" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Pair_of_scissors_with_black_handle%2C_2015-06-07.jpg/1024px-Pair_of_scissors_with_black_handle%2C_2015-06-07.jpg" />
             </label>
-            <button id="play-button">Play</button>
+               <br>
+               <br><br>
+                 <center><button id="play-button" class="button">Play</button></center>
+
+           </div>
 
         </section>
+        <center><span class="span">RESULTS</span></center>
             <section class="result">
-                <div>Wins: <span id="wins"></span></div>
-                <div>Losses: <span id="losses"></span></div>
-                <div>Draw: <span id="draw"></span></div>
-                <div>Total: <span id="total"></span></div>
-                
+               
+                <ul>
+                    <li><div><span id="comentate"></span></div></li>
+                    <li><div>Wins: <span id="wins"></span></div></li>
+
+                    <li><div>Losses: <span id="losses"></span></div></li>
+
+                    <li><div>Draw: <span id="draw"></span></div></li>
+
+                        <li><div>Total: <span id="total"></span></div></li>
+            </ul>
             </section>
     </main>
     <footer>
-        <div class="copy gutter-right">&copy; 2020 Alchemy Code Lab</div>
+       
     </footer>
 
     <script type="module" src="app.js"></script>
