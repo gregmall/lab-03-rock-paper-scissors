@@ -87,6 +87,9 @@ header {
     box-shadow: 5px 10px #888888;
 
 }
+input {
+    display: none;
+}
 
 input:checked + img {
       
